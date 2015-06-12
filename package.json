@@ -1,0 +1,28 @@
+{
+  "name": "wintersmith-yaml-page",
+  "version": "1.0.0",
+  "description": "Use yml files for pages in wintersmith. Just like JSON pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmclanahan/wintersmith-yaml-page"
+  },
+  "keywords": [
+    "wintersmith",
+    "yaml"
+  ],
+  "author": "Paul McLanahan <pmclanahan@gmail.com> (http://pmac.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmclanahan/wintersmith-yaml-page/issues"
+  },
+  "homepage": "https://github.com/pmclanahan/wintersmith-yaml-page",
+  "dependencies": {
+    "async": "^1.2.1",
+    "coffee-script": "^1.9.3",
+    "js-yaml": "^3.3.1"
+  }
+}
