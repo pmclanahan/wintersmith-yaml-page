@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-yaml-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use yml files for pages in wintersmith. Just like JSON pages.",
   "main": "index.js",
   "scripts": {
