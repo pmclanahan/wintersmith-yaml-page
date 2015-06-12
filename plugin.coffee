@@ -10,7 +10,7 @@ readYAML = (filename, callback) ->
       fs.readFile filename, callback
     (buffer, callback) ->
       try
-        rv = yaml.safeLoad buffer.toString()
+        rv = yaml.load buffer.toString()
         callback null, rv
       catch error
         error.filename = filename
